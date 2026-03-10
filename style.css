@@ -1,0 +1,84 @@
+/* Center the application on the page with clean background */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Main application card layout */
+.container {
+    background: white;
+    padding: 25px;
+    max-width: 500px;
+    /* Keeps layout readable on large screens */
+    width: 100%;
+    /* Makes layout responsive on small screens */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center main heading */
+h1 {
+    text-align: center;
+}
+
+/* Spacing for rate limit controls section */
+.controls {
+    margin-bottom: 20px;
+}
+
+/* Styling for rate limit input */
+input {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* General button styling */
+button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Main API simulation button styling */
+.api-btn {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+/* Hover effect for better user interaction feedback */
+.api-btn:hover {
+    background: #0056b3;
+}
+
+/* Section displaying allowed and blocked counters */
+.stats {
+    margin-top: 20px;
+}
+
+/* Scrollable log section for execution history */
+.log {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+/* Remove default list styling for log */
+.log ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Individual log entry styling */
+.log li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
