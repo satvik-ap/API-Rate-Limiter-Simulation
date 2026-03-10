@@ -1,4 +1,4 @@
-API Rate Limiter Simulation (JavaScript Throttling)
+#API Rate Limiter Simulation (JavaScript Throttling)
 Project Description
 
 This project demonstrates an API Rate Limiter Simulation using JavaScript. It implements a throttling mechanism that restricts how many times a function can execute within a specific time interval. The system simulates real-world API rate limiting by allowing only a limited number of calls per second while blocking excessive requests.
