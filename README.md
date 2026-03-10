@@ -46,3 +46,40 @@ This project also demonstrates important JavaScript concepts such as **closures,
 ---
 
 ## Project Structure
+API-Rate-Limiter-Simulation
+│
+├── index.html # User Interface
+├── style.css # Styling
+├── script.js # Throttling logic and API simulation
+└── README.md # Project documentation
+
+
+---
+
+## Example Output
+The application shows:
+
+- Allowed API calls counter
+- Blocked API calls counter
+- Call execution log with timestamps
+- Dynamic updates when the rate limit changes
+
+---
+
+## Learning Outcomes
+This project helped demonstrate:
+
+- How **API rate limiting works**
+- Implementing **function throttling**
+- Using **JavaScript closures for state persistence**
+- Managing **execution timing**
+- Building an interactive **frontend simulation**
+
+---
+
+## References
+- Mozilla Developer Network (MDN) – JavaScript Closures  
+- MDN Web Docs – Higher-Order Functions  
+- MDN Web Docs – `Date.now()` Method  
+- JavaScript ES6 Documentation  
+- REST API Rate Limiting Concepts in Web Development
